@@ -84,7 +84,7 @@ Fujiang Ji <sup>a</sup>, Jiaqi Yang <sup>a</sup>, Philip A. Townsend <sup>a</sup
   * Finally, [**train**](model_code/train.py) and [**test**](model_code/test.py) the models.
   
 ## Datasets
-* The processed paired LR-HSI, HR-MSI and HR-HSI can be found through **[Hugging Face 🤗](https://huggingface.co/datasets/FujiangJi/hyperspectral_reconstruction_datasets)**.
+* The processed paired LR-HSI, HR-MSI and HR-HSI can be found through **[Hugging Face 🤗](https://huggingface.co/datasets/FujiangJi/hyperspectral_reconstruction_datasets) _After accepted by a scientific journal_**.
 
 ## Reference
 In case you use our framework and code in your research, Please cite our paper:
