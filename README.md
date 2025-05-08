@@ -61,7 +61,7 @@ Fujiang Ji <sup>a</sup>, Jiaqi Yang <sup>a</sup>, Philip A. Townsend <sup>a</sup
   <p><b>Fig. 2.</b> Summarized workflow for the data processing.</p>
 </div>
 
-* Utilizing the [pairing_EMIT_PlanetScope.ipynb](original_data_processing/pairing_EMIT_PlanetScope.ipynb)to generate geolocational paired EMIT and PlanetScope data, include:
+* Utilizing the [pairing_EMIT_PlanetScope.ipynb](original_data_processing/pairing_EMIT_PlanetScope.ipynb) to generate geolocational paired EMIT and PlanetScope data, include:
   * (1) Reproject imagery to the same UTM projection; 
   * (2) Clip the imagery using the same ROI; 
   * (3) Apply the scale factor to convert PlanetScope reflectance to 0 ~ 1;
