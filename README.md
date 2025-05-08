@@ -24,7 +24,7 @@ Fujiang Ji <sup>a</sup>, Jiaqi Yang <sup>a</sup>, Philip A. Townsend <sup>a</sup
 
 ## Three ecologically distinct research areas
 <div align="center">
-  <img src="figs/research_area.jpg" alt="Research Areas Overview" style="width:80%; height:80%;">
+  <img src="figs/research_area.jpg" alt="Research Areas Overview" style="width:100%; height:100%;">
   <p><b>Fig. 1.</b> Overview of the research areas in this study.</p>
 </div>
 
