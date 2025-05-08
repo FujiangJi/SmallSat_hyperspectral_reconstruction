@@ -3,9 +3,9 @@
 Fujiang Ji <sup>a</sup>, Jiaqi Yang <sup>a</sup>, Philip A. Townsend <sup>a</sup>, Ting Zheng <sup>a</sup>, Kyle R. Kovach <sup>a</sup>, Tong Yu <sup>b</sup>, Ruqi Yang <sup>a</sup>, Ming Liu <sup>c</sup>, Min Chen <sup>a, *</sup>  
 
 
-<sup>a</sup> Department of Forest and Wildlife Ecology, University of Wisconsin-Madison, 1630 Linden Drive, Madison, WI, 53706, USA  
-<sup>b</sup> Department of Biological Systems Engineering, University of Wisconsin-Madison, 460 Henry Mall, Madison, WI, 53706, USA  
-<sup>c</sup> Department of Computer Sciences, University of Wisconsin-Madison, 1210 W. Dayton Street Madison, WI, 53706, USA
+<sup>a</sup> Department of Forest and Wildlife Ecology, University of Wisconsin-Madison, Madison, WI, 53706, USA  
+<sup>b</sup> Department of Biological Systems Engineering, University of Wisconsin-Madison, Madison, WI, 53706, USA  
+<sup>c</sup> Department of Computer Sciences, University of Wisconsin-Madison, Madison, WI, 53706, USA
 
 ## Summary
 * High-resolution hyperspectral imagery (HR-HSI) is essential for fine-scale ecological and environmental monitoring, yet current spaceborne sensors are constrained by a trade-off between spectral and spatial resolution. Spectral reconstruction through data fusion has emerged as a promising solution for efficiently generating HR-HSI imagery.
@@ -41,7 +41,7 @@ Fujiang Ji <sup>a</sup>, Jiaqi Yang <sup>a</sup>, Philip A. Townsend <sup>a</sup
   conda env create -f environment.yml
   conda activate py38
   ```
-### Step 1: Process the original spaceborne EMIT, PlanetScope and airborne AVIRIS3/SHIFT data.
+### Step 1: Process the original EMIT, PlanetScope and AVIRIS3/SHIFT data.
 * **EMIT L2A surface reflectance product:**  
   * **Background:** The [EMIT](https://earth.jpl.nasa.gov/emit/) Project delivers space-based measurements of surface mineralogy of the Earth’s arid dust source regions. These measurements are used to initialize the compositional makeup of dust sources in Earth System Models (ESMs). The dust cycle, which describe the generation, lofting, transport, and deposition of mineral dust, plays an important role in ESMs. Dust composition is presently the largest uncertainty factor in quantifying the magnitude of aerosol direct radiative forcing. By understanding the composition of mineral dust sources, EMIT aims to constrain the sign and magnitude of dust-related radiative forcing at regional and global scales. During its one-year mission on the International Space Station (ISS), EMIT will make measurements over the sunlit Earth’s dust source regions that fall within ±52° latitude. EMIT will schedule up to five visits (three on average) of each arid target region and only acquisitions not dominated by cloud cover will be downlinked. EMIT-based maps of the relative abundance of source minerals will advance the understanding of the current and future impacts of mineral dust in the Earth system. 
   * **Data Access:** EMIT Data Products are distributed by the [LP DAAC](https://lpdaac.usgs.gov/). Learn more about EMIT data products from [EMIT Product Pages](https://lpdaac.usgs.gov/product_search/?query=emit&status=Operational&view=cards&sort=title) and search for and download EMIT data products using [NASA EarthData Search](https://search.earthdata.nasa.gov/search?q=%22EMIT%22)
@@ -62,9 +62,10 @@ Fujiang Ji <sup>a</sup>, Jiaqi Yang <sup>a</sup>, Philip A. Townsend <sup>a</sup
 </div>
 
 * Utilizing the [pairing_EMIT_PlanetScope.ipynb](original_data_processing/pairing_EMIT_PlanetScope.ipynb)to generate geolocational paired EMIT and PlanetScope data, include:
-  * (1) reproject imagery to the same UTM projection; 
-  * (2) clip the imagery using the same ROI; (3) Apply the scale factor to convert PlanetScope reflectance to 0 ~ 1;
-  * (3) sensors inter-calibration.
+  * (1) Reproject imagery to the same UTM projection; 
+  * (2) Clip the imagery using the same ROI; 
+  * (3) Apply the scale factor to convert PlanetScope reflectance to 0 ~ 1;
+  * (4) Sensors inter-calibration.
 
 ### Step 3: Deep learning-based fuison algorithms implementation.
 <div align="center">
