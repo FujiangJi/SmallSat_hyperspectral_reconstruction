@@ -1,6 +1,6 @@
 # Robust hyperspectral reconstruction from satellite and airborne observations via a deep hierarchical fusion network across heterogeneous scenarios
 
-Fujiang Ji <sup>a</sup>, Jiaqi Yang <sup>a</sup>, Philip A. Townsend <sup>a</sup>, Ting Zheng <sup>a</sup>, Kyle R. Kovach <sup>a</sup>, Tong Yu <sup>b</sup>, Ruqi Yang <sup>a</sup>, Ming Liu <sup>c</sup>, Min Chen <sup>a, *</sup>  
+Fujiang Ji <sup>a</sup>, Jiaqi Yang <sup>a</sup>, Philip A. Townsend <sup>a</sup>, Ting Zheng <sup>a</sup>, Kyle R. Kovach <sup>a</sup>, Tong Yu <sup>b</sup>, Ruqi Yang <sup>a</sup>, Ming Liu <sup>c</sup>, Min Chen <sup>a</sup>  
 
 
 <sup>a</sup> Department of Forest and Wildlife Ecology, University of Wisconsin-Madison, Madison, WI, 53706, USA  
