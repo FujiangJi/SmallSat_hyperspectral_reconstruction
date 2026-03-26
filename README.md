@@ -2,7 +2,7 @@
 <div align="center">
 <h1>Robust hyperspectral reconstruction from satellite and airborne observations via a deep hierarchical fusion network across heterogeneous scenarios</h1>
 
-[Fujiang Ji](https://fujiangji.github.io/) <sup>a</sup>, [Jiaqi Yang](https://jqyang22.github.io/)<sup>a</sup>, [Philip A. Townsend](https://forestandwildlifeecology.wisc.edu/people/faculty-and-staff/philip-townsend/) <sup>a</sup>, [Ting Zheng](https://www.researchgate.net/profile/Ting-Zheng-12) <sup>a</sup>, [Kyle R. Kovach](https://scholar.google.com/citations?user=P_CRYLQAAAAJ&hl=en) <sup>a</sup>, [Tong Yu](https://uwty.github.io/), [Ruqi Yang](https://scholar.google.com/citations?user=1AYC2VwAAAAJ&hl=en/) <sup>a</sup>, [Ming Liu](https://pages.cs.wisc.edu/~mgliu/) <sup>a, c</sup>,[Min Chen](https://globalchange.cals.wisc.edu/staff/chen-min/) <sup>a</sup>
+[Fujiang Ji](https://fujiangji.github.io/) <sup>a</sup>, [Jiaqi Yang](https://jqyang22.github.io/) <sup>a</sup>, [Philip A. Townsend](https://forestandwildlifeecology.wisc.edu/people/faculty-and-staff/philip-townsend/) <sup>a</sup>, [Ting Zheng](https://www.researchgate.net/profile/Ting-Zheng-12) <sup>a</sup>, [Kyle R. Kovach](https://scholar.google.com/citations?user=P_CRYLQAAAAJ&hl=en) <sup>a</sup>, [Tong Yu](https://uwty.github.io/) <sup>b</sup>, [Ruqi Yang](https://scholar.google.com/citations?user=1AYC2VwAAAAJ&hl=en/) <sup>a</sup>, [Ming Liu](https://pages.cs.wisc.edu/~mgliu/) <sup>c</sup>,[Min Chen](https://globalchange.cals.wisc.edu/staff/chen-min/) <sup>a</sup>
 
 <sup>a</sup> Department of Forest and Wildlife Ecology, University of Wisconsin-Madison, Madison, WI, USA  
 <sup>b</sup> Department of Biological Systems Engineering, University of Wisconsin-Madison, Madison, WI, USA  
