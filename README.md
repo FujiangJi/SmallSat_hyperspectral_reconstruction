@@ -1,11 +1,19 @@
-# Robust hyperspectral reconstruction from satellite and airborne observations via a deep hierarchical fusion network across heterogeneous scenarios
 
-Fujiang Ji <sup>a</sup>, Jiaqi Yang <sup>a</sup>, Philip A. Townsend <sup>a</sup>, Ting Zheng <sup>a</sup>, Kyle R. Kovach <sup>a</sup>, Tong Yu <sup>b</sup>, Ruqi Yang <sup>a</sup>, Ming Liu <sup>c</sup>, Min Chen <sup>a</sup>  
+<div align="center">
+<h1>Robust hyperspectral reconstruction from satellite and airborne observations via a deep hierarchical fusion network across heterogeneous scenarios</h1>
 
+[Fujiang Ji](https://fujiangji.github.io/) <sup>a</sup>, [Jiaqi Yang](https://jqyang22.github.io/)<sup>a</sup>, [Philip A. Townsend](https://forestandwildlifeecology.wisc.edu/people/faculty-and-staff/philip-townsend/) <sup>a</sup>, [Ting Zheng](https://www.researchgate.net/profile/Ting-Zheng-12) <sup>a</sup>, [Kyle R. Kovach](https://scholar.google.com/citations?user=P_CRYLQAAAAJ&hl=en) <sup>a</sup>, [Tong Yu](https://uwty.github.io/), [Ruqi Yang](https://scholar.google.com/citations?user=1AYC2VwAAAAJ&hl=en/) <sup>a</sup>, [Ming Liu](https://pages.cs.wisc.edu/~mgliu/) <sup>a, c</sup>,[Min Chen](https://globalchange.cals.wisc.edu/staff/chen-min/) <sup>a</sup>
 
-<sup>a</sup> Department of Forest and Wildlife Ecology, University of Wisconsin-Madison, Madison, WI, 53706, USA  
-<sup>b</sup> Department of Biological Systems Engineering, University of Wisconsin-Madison, Madison, WI, 53706, USA  
-<sup>c</sup> Department of Computer Sciences, University of Wisconsin-Madison, Madison, WI, 53706, USA
+<sup>a</sup> Department of Forest and Wildlife Ecology, University of Wisconsin-Madison, Madison, WI, USA  
+<sup>b</sup> Department of Biological Systems Engineering, University of Wisconsin-Madison, Madison, WI, USA  
+<sup>c</sup> Department of Computer Sciences, University of Wisconsin-Madison, Madison, WI, USA  
+
+</div>
+
+<p align='center'>
+  <a href="https://doi.org/10.1016/j.rse.2026.115385"><img alt="Pape" src="https://img.shields.io/badge/TPAMI-Paper-6D4AFF?style=for-the-badge" /></a>
+</p>
+
 
 ## Summary
 * High-resolution hyperspectral imagery (HR-HSI) is essential for fine-scale ecological and environmental monitoring, yet current spaceborne sensors are constrained by a trade-off between spectral and spatial resolution. Spectral reconstruction through data fusion has emerged as a promising solution for efficiently generating HR-HSI imagery.
@@ -84,7 +92,7 @@ Fujiang Ji <sup>a</sup>, Jiaqi Yang <sup>a</sup>, Philip A. Townsend <sup>a</sup
   * Finally, [**train**](model_code/train.py) and [**test**](model_code/test.py) the models.
   
 ## Datasets
-* The processed paired LR-HSI, HR-MSI and HR-HSI can be found through **[Hugging Face 🤗](https://huggingface.co/datasets/FujiangJi/hyperspectral_reconstruction_datasets) _After accepted by a scientific journal_**.
+* The processed paired LR-HSI, HR-MSI and HR-HSI can be found through **[Hugging Face 🤗](https://huggingface.co/datasets/FujiangJi/hyperspectral_reconstruction_datasets)**.
 
 ## Reference
 In case you use our framework and code in your research, Please cite our paper:
@@ -92,7 +100,7 @@ In case you use our framework and code in your research, Please cite our paper:
   ```
   Ji, F.; Yang, J.; Townsend, P. A.; Zheng, T.; Kovach, K. R.; Yu, T.; Yang, R.; Liu, M.; Chen, M. 
   Robust hyperspectral reconstruction from satellite and airborne observations via a deep hierarchical 
-  fusion network across heterogeneous scenarios. 2025. (Manuscript submitted, DOI forthcoming).
+  fusion network across heterogeneous scenarios. 2026, 338, 115385. https://doi.org/10.1016/j.rse.2026.115385 .
   ```
 
 ## Contact
